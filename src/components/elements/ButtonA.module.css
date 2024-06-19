@@ -8,6 +8,10 @@
     cursor: pointer;
 }
 
+.btn a{
+    color: aliceblue !important;
+}
+
 .btn:hover{
     color: aliceblue;
     background-color: #010B28;

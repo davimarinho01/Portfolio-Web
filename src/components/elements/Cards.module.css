@@ -38,7 +38,7 @@
         display: flex;
         justify-content: center;
         align-items: left;
-        margin: 15px;
+        margin-bottom: 2em;
         
     }
     
@@ -81,7 +81,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 15px;
+        margin-bottom: 2em;
         
     }
     
@@ -126,7 +126,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 15px;
+        margin-bottom: 2em;
         
     }
     

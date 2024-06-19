@@ -1,9 +1,25 @@
-.projects{
-    text-align: left;
-    margin-left: 75px;
+@media (min-width:1300px){
+    .projects{
+        text-align: left;
+        margin-left: 75px;
+    }
+    
+    .projects h1{
+        font-size: 45px;
+        padding-bottom: 1em;
+    }
+    
 }
 
-.projects h1{
-    font-size: 45px;
-    padding-bottom: 1em;
+@media (min-width:300px) and (max-width: 1299px){
+    .projects{
+        text-align: left;
+        margin-left: 5%;
+    }
+    
+    .projects h1{
+        font-size: 30px;
+        padding-bottom: 1em;
+    }
+    
 }
