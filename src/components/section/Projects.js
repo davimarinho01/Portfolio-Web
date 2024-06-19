@@ -53,7 +53,7 @@ function Projects(){
                 repo= 'https://github.com/davimarinho01/Portifolio-Web'
                 site= 'https://davimarinho.vercel.app/'
             />
-            <ButtonB id='btn' text='Acesse meus repositórios' link='https://github.com/davimarinho01?tab=repositories'/>
+            <ButtonB text='Acesse meus repositórios' link='https://github.com/davimarinho01?tab=repositories'/>
         </div>
     )
 }

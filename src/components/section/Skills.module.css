@@ -20,10 +20,12 @@
     
     .skill h1{
         font-size: 45px;
+        padding-bottom: .5em;
     }
     
     .skill p{
         font-size: 20px;
+        padding-bottom: 1em;
     }
     
     
