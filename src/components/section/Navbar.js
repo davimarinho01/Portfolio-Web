@@ -12,7 +12,7 @@ function Navbar(){
                 <li><Nav.Link href='#Projects'>Projetos</Nav.Link></li>
             </ul>
 
-            <ul>
+            <ul className={styles.icons}>
                 <li><a href='https://www.instagram.com/dv_alvez/'><FaInstagram size={30}/></a></li>
                 <li><a href='https://www.linkedin.com/in/davi-marinho-9896b9179/'><FaLinkedin size={30}/></a></li>
                 <li><a href='https://github.com/davimarinho01'><FaGithub size={30}/></a></li>

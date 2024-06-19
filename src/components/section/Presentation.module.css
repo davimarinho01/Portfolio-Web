@@ -1,12 +1,112 @@
-.presentation{
-    text-align: left;
-    margin-left: 15%;
+@media (min-width:1300px){
+    .presentation{
+        text-align: left;
+        margin-left: 15%;
+    }
+    
+    .presentation h1{
+        font-size: 45px;
+        margin-bottom: .5em;
+    }
+    
+    .presentation h2{
+        margin-bottom: .5em;
+    }
+    
+    .presentation h4{
+        font-size: 25px ;
+        margin-bottom: 1em;
+    }
+    
+    .presentation p{
+        margin-bottom: .5em;
+    }
 }
 
-.presentation h1{
-    font-size: 45px;
+@media (min-width:800px) and (max-width:1299px){
+    .presentation{
+        text-align: left;
+        margin-left: 15%;
+        margin-bottom: 5em;
+    }
+    
+    .presentation h1{
+        font-size: 45px;
+        margin-bottom: .5em;
+    }
+    
+    .presentation h2{
+        margin-bottom: .5em;
+    }
+    
+    .presentation h4{
+        font-size: 25px ;
+        margin-bottom: 1em;
+    }
+    
+    .presentation p{
+        margin-bottom: .5em;
+    }
 }
 
-.presentation h4{
-    font-size: 25px ;
+@media (min-width:430px) and (max-width:799px){
+    .presentation{
+        text-align: left;
+        margin-left: 15%;
+        margin-bottom: 5em;
+        width: 100%;
+    }
+    
+    .presentation h1{
+        font-size: 25px;
+        margin-bottom: .5em;
+    }
+    
+    .presentation h2{
+        font-size: 18px;
+        margin-bottom: .5em;
+    }
+    
+    .presentation h4{
+        font-size: 18px ;
+        margin-bottom: 1em;
+    }
+    
+    .presentation p{
+        font-size: .8em;
+        font-weight: 600;
+        margin-bottom: .5em;
+    }
 }
+
+@media (min-width:300px) and (max-width:429px){
+    .presentation{
+        text-align: left;
+        margin-left: 15%;
+        margin-bottom: 5em;
+        width: 100%;
+    }
+    
+    .presentation h1{
+        font-size: 25px;
+        font-weight: 800;
+        margin-bottom: .5em;
+    }
+    
+    .presentation h2{
+        font-size: 20px;
+        margin-bottom: .5em;
+    }
+    
+    .presentation h4{
+        font-size: 20px ;
+        margin-bottom: 1em;
+    }
+    
+    .presentation p{
+        font-size: .8em;
+        font-weight: 600;
+        margin-bottom: .5em;
+    }
+}
+

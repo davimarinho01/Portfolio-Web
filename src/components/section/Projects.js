@@ -50,10 +50,10 @@ function Projects(){
                 title='Portfólio Online' 
                 tech= 'HTML, CSS, JS e REACT'
                 description = 'Desenvolvimento do Portfólio Online em React'
-                repo= ''
-                site= ''
+                repo= 'https://github.com/davimarinho01/Portifolio-Web'
+                site= 'https://davimarinho.vercel.app/'
             />
-            <ButtonB text='Acesse meus repositórios' link='https://github.com/davimarinho01?tab=repositories'/>
+            <ButtonB id='btn' text='Acesse meus repositórios' link='https://github.com/davimarinho01?tab=repositories'/>
         </div>
     )
 }

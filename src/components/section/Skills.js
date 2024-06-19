@@ -9,11 +9,11 @@ function Skills(){
         <div className={styles.skill} id="Skills">
             <h1>Habilidades</h1>
             <p>Conheça um pouco das minhas principais habilidades e conhecimentos.</p>
-            <div>
-                <img src={javascript}/>
-                <img src={html}/>
-                <img src={css}/>
-                <img src={react}/>
+            <div className={styles.dev}>
+                <img src={javascript} alt='JS'/>
+                <img src={html} alt='HTML'/>
+                <img src={css} alt='CSS'/>
+                <img src={react} alt='REACT'/>
             </div>
         </div>
     )

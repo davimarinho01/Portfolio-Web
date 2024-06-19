@@ -1,26 +1,118 @@
-.footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-}
-
-.footer ul{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin: 25px;
+@media (min-width: 1300px){
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
     
+    .footer ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin: 25px;
+        
+    }
+    
+    .footer a{
+        color: aliceblue !important;
+    }
+    
+    .footer li{
+        margin: 15px;
+    }
+    
+    .footer p{
+        margin: 25px;
+    }
 }
 
-.footer a{
-    color: aliceblue !important;
+@media (min-width:800px) and (max-width:1299px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    
+    .footer ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin: 25px;
+        
+    }
+    
+    .footer a{
+        color: aliceblue !important;
+    }
+    
+    .footer li{
+        margin: 5px;
+    }
+    
+    .footer p{
+        margin: 10px;
+    }
 }
 
-.footer li{
-    margin: 15px;
+@media (min-width:430px) and (max-width:799px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    
+    .footer ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin: 25px;
+        
+    }
+    
+    .footer a{
+        color: aliceblue !important;
+    }
+    
+    .footer li{
+        margin: 5px;
+    }
+    
+    .footer p{
+        margin: 10px;
+    }
 }
 
-.footer p{
-    margin: 25px;
+@media (min-width:300px) and (max-width:429px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    
+    .footer ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin: 25px;
+        
+    }
+    
+    .footer a{
+        color: aliceblue !important;
+    }
+    
+    .footer li{
+        margin: 5px;
+    }
+    
+    .footer p{
+        margin: 10px;
+    }
 }
